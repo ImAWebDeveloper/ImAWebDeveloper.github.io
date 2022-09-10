@@ -1,4 +1,4 @@
-(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))a(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const s of t.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&a(s)}).observe(document,{childList:!0,subtree:!0});function o(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function a(e){if(e.ep)return;e.ep=!0;const t=o(e);fetch(e.href,t)}})();document.querySelector("#app").innerHTML=`
+(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const a of t.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&s(a)}).observe(document,{childList:!0,subtree:!0});function o(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function s(e){if(e.ep)return;e.ep=!0;const t=o(e);fetch(e.href,t)}})();document.querySelector("#app").innerHTML=`
 
 <h1 class="text-center mb-2 text-2xl md:text-4xl rtl"> \u0634\u0631\u0648\u0639 \u062A\u0648\u0633\u0639\u0647 \u0648\u0628 ( \u0641\u0631\u0627\u0646\u062A \u0627\u0646\u062F ) </h1>
 
@@ -37,5 +37,7 @@
 <a href="https://toplearn.com/c/AEO">SCSS ( \u0648\u06CC\u062F\u06CC\u0648 )</a>
 <a href="https://roocket.ir/series/learning-sass">SCSS ( \u0648\u06CC\u062F\u06CC\u0648 )</a>
 </div>
+
+<a class="footer" href="https://imdanieldev.ml/">Make By Daniel</a>
 
 `;
