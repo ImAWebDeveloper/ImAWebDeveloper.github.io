@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-a{
+div a{
      color: #000;
      background-color: #EEE;
      padding: 5px 10px;
@@ -10,4 +10,13 @@ a{
 }
 .rtl{
      direction: rtl;
+}
+.footer{
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 18px;
+     color: blue;
+     cursor: pointer;
 }

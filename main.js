@@ -41,4 +41,6 @@ document.querySelector('#app').innerHTML = `
 <a href="https://roocket.ir/series/learning-sass">SCSS ( ویدیو )</a>
 </div>
 
+<a class="footer" href="https://imdanieldev.ml/">Make By Daniel</a>
+
 `
