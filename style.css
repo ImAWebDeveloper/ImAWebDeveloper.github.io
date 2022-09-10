@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a{
+     color: #000;
+     background-color: #EEE;
+     padding: 5px 10px;
+     cursor: pointer;
+}
+.rtl{
+     direction: rtl;
+}
