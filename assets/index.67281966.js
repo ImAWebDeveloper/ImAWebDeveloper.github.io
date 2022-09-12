@@ -38,6 +38,6 @@
 <a href="https://roocket.ir/series/learning-sass">SCSS ( \u0648\u06CC\u062F\u06CC\u0648 )</a>
 </div>
 
-<a class="footer" href="https://imdanieldev.ml/">Make By Daniel</a>
+<a class="footer" href="https://imdanieldev.ml/">Made By Daniel</a>
 
 `;
